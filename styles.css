@@ -16,10 +16,10 @@
    Puedes elegir colores en https://coolors.co
    ============================================================ */
 :root {
-  --color-fondo: #fdf6ec;      /* el fondo de toda la página */
-  --color-texto: #2d2a26;      /* el color de casi todo el texto */
-  --color-acento: #c2571b;     /* títulos y detalles: tu color favorito aquí */
-  --color-enlace: #1b6ec2;     /* los enlaces */
+  --color-bg: #fdf6ec;      /* el fondo de toda la página */
+  --color-text: #2d2a26;      /* el color de casi todo el texto */
+  --color-accent: #c2571b;     /* títulos y detalles: tu color favorito aquí */
+  --color-link: #1b6ec2;     /* los enlaces */
 }
 
 /* ============================================================
@@ -28,8 +28,8 @@
    todo lo visible. Por eso estos cambios afectan a todo.
    ============================================================ */
 body {
-  background-color: var(--color-fondo);
-  color: var(--color-texto);
+  background-color: var(--color-bg);
+  color: var(--color-text);
 
   /* La tipografía. Prueba a cambiar "Georgia" por "Verdana" */
   font-family: Georgia, "Times New Roman", serif;
@@ -47,7 +47,7 @@ body {
    "h1, h2" selecciona los DOS tipos de título a la vez.
    ============================================================ */
 h1, h2 {
-  color: var(--color-acento);
+  color: var(--color-accent);
   font-weight: normal;
 }
 
@@ -60,13 +60,13 @@ h1 {
    LOS ENLACES
    ============================================================ */
 a {
-  color: var(--color-enlace);
+  color: var(--color-link);
 }
 
 /* ":hover" significa "cuando el ratón está encima". Pruébalo. */
 a:hover {
-  background-color: var(--color-enlace);
-  color: var(--color-fondo);
+  background-color: var(--color-link);
+  color: var(--color-bg);
 }
 
 /* ============================================================
@@ -74,13 +74,13 @@ a:hover {
    ============================================================ */
 header {
   /* Una línea decorativa bajo tu presentación */
-  border-bottom: 3px solid var(--color-acento);
+  border-bottom: 3px solid var(--color-accent);
   padding-bottom: 16px;
   margin-bottom: 32px;
 }
 
 footer {
-  border-top: 1px solid var(--color-texto);
+  border-top: 1px solid var(--color-text);
   margin-top: 48px;
   padding-top: 16px;
   font-size: 14px;             /* letra más pequeña para el pie */
